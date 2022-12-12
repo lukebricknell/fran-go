@@ -1,5 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
@@ -9,7 +7,7 @@ module.exports = {
       colors: {
         hred: {
           DEFAULT: "#C70404",
-          dark: "#770202",
+          dark: "#A00303",
         },
         beige: {
           DEFAULT: "#FAEDCA",
