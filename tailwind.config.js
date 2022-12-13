@@ -16,7 +16,7 @@ module.exports = {
         fadedblack: "rgb(0, 0, 0, 0.4)",
       },
       fontFamily: {
-        sans: ["hitchcut", ...defaultTheme.fontFamily.sans],
+        sans: ["hitchcut", "sans-serif", ...defaultTheme.fontFamily.sans],
       },
     },
   },
