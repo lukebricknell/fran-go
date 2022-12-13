@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: hitchcut, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: hitchcut, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -1115,9 +1115,15 @@ video {
 @font-face {
   font-family: "hitchut";
 
+  src: url("../public/fonts/hitchcut.otf");
+
+  src: url("../public/fonts/hitchcut.otf") format("openType"),
+    url("../public/fonts/hitchcut-webfont.woff") format(woff),
+    url("../public/fonts/hitchcut-webfont.woff2") format(woff2);
+
   font-weight: normal;
 
-  src: url("../public/fonts/hitchcut.otf") format("openType");
+  font-style: normal;
 }
 
 .hover\:-translate-y-1:hover {
