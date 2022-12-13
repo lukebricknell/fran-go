@@ -4,5 +4,6 @@
 
 @font-face {
   font-family: "hitchut";
-  src: url("/public/fonts/hitchcut.otf");
+  font-weight: normal;
+  src: url("../public/fonts/hitchcut.otf") format("openType");
 }
