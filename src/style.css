@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "hitchut";
+  font-family: "hitchcut";
   src: url("../public/fonts/hitchcut.otf");
   src: url("../public/fonts/hitchcut.otf") format("openType"),
     url("../public/fonts/hitchcut-webfont.woff") format(woff),
